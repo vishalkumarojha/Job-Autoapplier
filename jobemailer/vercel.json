@@ -1,0 +1,1 @@
+{"functions":{"api/rpc.js":{"maxDuration":10},"api/intake.js":{"maxDuration":30},"api/match.js":{"maxDuration":30},"api/suggestions.js":{"maxDuration":30},"api/draft.js":{"maxDuration":30},"api/approval.js":{"maxDuration":30},"api/send.js":{"maxDuration":30},"api/reminders/run.js":{"maxDuration":30}},"crons":[{"path":"/api/reminders/run","schedule":"0 9 * * *"}]}

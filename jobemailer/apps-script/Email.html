@@ -1,0 +1,38 @@
+<div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222;max-width:700px;">
+
+  <p><?!= greeting ?></p>
+
+  <p><?!= intro ?></p>
+
+  <?!= locationLine ?>
+
+  <?!= notesLine ?>
+
+  <p>
+    I’m reaching out regarding the <strong><?!= role ?></strong> opportunity at
+    <strong><?!= company ?></strong>. I’d appreciate the opportunity to be
+    considered based on my experience and the requirements of the role.
+  </p>
+
+  <p>
+    <% if (attached) { %>
+      My resume is attached for your convenience, and you can also view it here:
+    <% } else { %>
+      You can view my resume here:
+    <% } %>
+    <a href="<?!= resumeLink ?>" style="color:#1155cc;text-decoration:none;">
+      View Resume
+    </a>
+  </p>
+
+  <p>
+    I’d be glad to connect and provide any additional information required.
+  </p>
+
+  <p>
+    Thanks for your time.
+  </p>
+
+  <?!= signature ?>
+
+</div>

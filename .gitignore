@@ -1,0 +1,49 @@
+# ─── Secrets: local environment files (keep safe *.example templates) ─────────
+.env
+.env.local
+.env.*.local
+.env.production
+*.env
+!.env.example
+
+# ─── Credentials, keys, machine-specific configuration ────────────────────────
+google-services.json
+GoogleService-Info.plist
+**/google-services.json
+local.properties
+**/local.properties
+*.keystore
+*.jks
+*.pem
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ─── Dependencies and generated/build output ──────────────────────────────────
+node_modules/
+.expo/
+dist/
+web-build/
+build/
+coverage/
+.gradle/
+**/.gradle/
+android/app/build/
+android/build/
+.metro-health-check*
+expo-env.d.ts
+*.tsbuildinfo
+
+# ─── Hosting / tooling ────────────────────────────────────────────────────────
+.vercel/
+.vercel
+
+# ─── OS / editor temp ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.orig.*

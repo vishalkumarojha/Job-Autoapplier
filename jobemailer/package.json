@@ -1,0 +1,19 @@
+{
+  "name": "job-outreach-vercel",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "firebase-admin": "^13.10.0",
+    "googleapis": "^150.0.1",
+    "pdf-parse": "^1.1.4"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "sync:resumes": "node scripts/sync-resume-library.js",
+    "sync:resumes:write": "node scripts/sync-resume-library.js --write"
+  }
+}
